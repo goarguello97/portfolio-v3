@@ -11,11 +11,7 @@ const Header = () => {
           Hola, soy Gonzalo
         </h1>
         <p className="text-white text-sm font-nomral leading-normal sm:text-base sm:font-normal sm:leading-normal">
-          Soy una persona apasionada y dedicada al desarrollo backend y
-          frontend, con una curiosidad insaciable que me impulsa a investigar y
-          aprender constantemente. Disfruto adquiriendo conocimientos profundos
-          y prácticos, lo que me ha permitido construir una sólida base en ambas
-          áreas.
+          Full Stack Developer
         </p>
       </div>
       <label className="flex flex-col items-center min-w-40 h-14 w-full max-w-[480px] sm:h-16 sm:items-start">

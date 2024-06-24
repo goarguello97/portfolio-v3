@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import profileImage from "../assets/profile-image.jpg";
 
 const Profile = () => {
@@ -18,14 +19,21 @@ const Profile = () => {
             </p>
           </div>
         </div>
-        <button className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#293038] hover:bg-[#38414b] text-white text-sm font-bold leading-normal tracking-[0.015em] w-full max-w-[480px] sm:w-auto">
+        <motion.button
+          className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#293038] hover:bg-[#38414b] text-white text-sm font-bold leading-normal tracking-[0.015em] w-full max-w-[480px] sm:w-auto"
+          whileHover={{ scale: 1.2, rotate: -5 }}
+          whileTap={{
+            scale: 0.8,
+            rotate: -10,
+          }}
+        >
           <a
             href="https://drive.google.com/file/d/1fUnU7e6EGDNxyJzxKKKQbo46hS_9vcaX/view?usp=sharing"
             target="blank"
           >
             <span className="truncate">Descargar</span>
           </a>
-        </button>
+        </motion.button>
       </section>
     </div>
   );

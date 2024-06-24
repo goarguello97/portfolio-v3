@@ -10,8 +10,11 @@ const Network = ({
   link: string;
 }) => {
   return (
-    <a href={link}>
-      <div className="flex items-center gap-4 bg-[#111418] hover:bg-[#2c333b] px-4 min-h-[72px] py-2">
+    <div>
+      <a
+        href={link}
+        className="flex items-center gap-4 bg-[#111418] hover:bg-[#2c333b] hover:rounded-xl max-w-[300px] px-4 min-h-[72px] py-2" target="blank"
+      >
         <div
           className="text-white flex items-center justify-center rounded-lg bg-[#293038] shrink-0 size-12"
           data-icon="EnvelopeOpen"
@@ -28,8 +31,8 @@ const Network = ({
             {title}
           </p>
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
   );
 };
 

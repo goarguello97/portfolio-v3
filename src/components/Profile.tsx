@@ -3,7 +3,16 @@ import profileImage from "../assets/profile-image.jpg";
 
 const Profile = () => {
   return (
-    <div className="flex p-4">
+    <motion.div
+      className="flex p-4"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01],
+      }}
+    >
       <section className="flex w-full gap-4 sm:flex-row sm:justify-between items-center">
         <div className="flex gap-4">
           <div
@@ -35,7 +44,7 @@ const Profile = () => {
           </a>
         </motion.button>
       </section>
-    </div>
+    </motion.div>
   );
 };
 

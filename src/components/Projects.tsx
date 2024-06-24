@@ -28,7 +28,7 @@ const Projects = () => {
         Proyectos
       </h2>
       <motion.div
-        className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 p-4"
         variants={container}
         initial="hidden"
         animate="visible"
@@ -40,6 +40,8 @@ const Projects = () => {
             image={project.image}
             key={i}
             variants={item}
+            link={project.link}
+            github={project.github}
           />
         ))}
       </motion.div>

@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Networks from "./components/Networks";
 import Profile from "./components/Profile";
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Networks />
+      <Footer />
     </>
   );
 }

@@ -50,7 +50,7 @@ export const projects = [
     title: "Portfolio",
     description: "Portfolio realizado con React y Tailwind CSS.",
     image: portfolio,
-    link: "",
+    link: "https://www.gonzaloarguello.ar/",
     github: "https://github.com/goarguello97/portfolio-v3",
   },
 ];

@@ -37,7 +37,7 @@ const Profile = () => {
           }}
         >
           <a
-            href="https://drive.google.com/file/d/1fUnU7e6EGDNxyJzxKKKQbo46hS_9vcaX/view?usp=sharing"
+            href="https://drive.google.com/file/d/1PlYIE_xYa7flwanoN3xip2Yzvcp6YDvh/view?usp=sharing"
             target="blank"
           >
             <span className="truncate">Descargar</span>

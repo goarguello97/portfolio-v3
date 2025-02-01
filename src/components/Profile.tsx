@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImage from "../assets/profile-image.jpg";
+import profileImage from "../assets/profile-image.jpeg";
 
 const Profile = () => {
   return (
@@ -37,7 +37,7 @@ const Profile = () => {
           }}
         >
           <a
-            href="https://drive.google.com/file/d/1PBM07L6pXUCKKhjQsuhFc6qfUwvkcITJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1K0xgHBvN3eDS0H3h4c9xfpyP2Ky4meT5/view?usp=sharing"
             target="blank"
           >
             <span className="truncate">Descargar</span>

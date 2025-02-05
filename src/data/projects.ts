@@ -1,9 +1,10 @@
+import apiSpring from "../assets/projects-images/apiSpring.jpeg";
 import calculator from "../assets/projects-images/calculator.jpeg";
 import musicPlayer from "../assets/projects-images/music-reproductor.jpeg";
+import portfolio from "../assets/projects-images/portfolio.jpg";
 import rollingcode from "../assets/projects-images/rollincode.jpeg";
 import tmdb from "../assets/projects-images/tmdb.jpeg";
 import weather from "../assets/projects-images/weather.jpeg";
-import portfolio from "../assets/projects-images/portfolio.jpg";
 
 export const projects = [
   {
@@ -35,7 +36,7 @@ export const projects = [
     description:
       "Proyecto realizado con base de datos PostgreSQL y Sequelize como ORM. Utilize Node y Express en el backend y react con bootstrap en el frontend.",
     image: tmdb,
-    link: "https://frontend-tmdb.vercel.app/",
+    link: "https://frontend-tmdb-goarguello97s-projects.vercel.app/",
     github: "https://github.com/goarguello97/frontend-tmdb/tree/master",
   },
   {
@@ -45,6 +46,14 @@ export const projects = [
     image: weather,
     link: "https://weather-app-blue-beta.vercel.app/",
     github: "https://github.com/goarguello97/weather-app/tree/master",
+  },
+  {
+    title: "User App CRUD",
+    description:
+      "Proyecto de backend desarrollado con Spring Boot 3.4.1. Proporciona una API REST para la gestión de usuarios, utilizando JPA para la persistencia de datos y MySQL como base de datos relacional. API desplegada en AWS EC2, frontend básico desplegado en AWS S3, base de datos en AWS RDS",
+    image: apiSpring,
+    link: "http://angular-users-app.s3-website-sa-east-1.amazonaws.com/",
+    github: "https://github.com/goarguello97/users-app-springboot",
   },
   {
     title: "Portfolio",

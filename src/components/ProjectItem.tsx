@@ -27,7 +27,7 @@ const ProjectItem = ({
           <p className="text-white text-base font-medium leading-normal">
             {title}
           </p>
-          <p className="text-[#9dabb8] text-sm font-normal leading-normal h-[64px] overflow-auto no-scroll">
+          <p className="text-[#9dabb8] text-sm font-normal leading-normal h-auto max-h-[80px] overflow-auto custom-scrollbar">
             {description}
           </p>
           <motion.a
